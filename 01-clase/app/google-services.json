@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "546684511227",
+    "project_id": "gsmm-2024a-project",
+    "storage_bucket": "gsmm-2024a-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546684511227:android:670e082adeef45d996615e",
+        "android_client_info": {
+          "package_name": "com.example.a2024ccgr1gsmm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCodX-dtBG_oHsiyFy7god32EsXG605UmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
