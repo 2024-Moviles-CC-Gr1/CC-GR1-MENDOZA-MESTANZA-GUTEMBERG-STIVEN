@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@color/back_color"
+    android:padding="4dp">
+
+    <!-- text view for displaying track name-->
+    <TextView
+        android:id="@+id/idTVTrackName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="Track Name"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <!-- text view for displaying artist name-->
+    <TextView
+        android:id="@+id/idTVTrackArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVTrackName"
+        android:padding="4dp"
+        android:text="Track Artist"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/idTVTrackArtist"
+        android:background="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="title_activity_album_detail">AlbumDetailActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+</resources>

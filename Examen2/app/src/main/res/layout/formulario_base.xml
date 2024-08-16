@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la Receta"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNombreReceta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el nombre de la receta" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cantidad de Ingredientes"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextCantidadIngredientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ingrese la cantidad de ingredientes" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPublica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Es pública?" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Creación"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextFechaCreacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la fecha de creación"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calificación"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextCalificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Ingrese la calificación (0.0 - 10.0)" />
+
+
+
+
+
+    <Button
+        android:id="@+id/buttonGuardarReceta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Receta" />
+
+</LinearLayout>
